@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
 module.exports = () => {
-  return mongoose.connect("mongodb+srv://snjakhar:Myproject@86>@cluster0.inizv.mongodb.net/testingAtlas");
+  return mongoose.connect("mongodb+srv://snjakhar:snjakhar@cluster0.inizv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 };
