@@ -4,7 +4,7 @@ var methodOverride = require("method-override");
 const userController = require("./controllers/user.controller");
 
 const app = express();
-app.get("srinivas",async(req,res)=>{
+app.get("/srinivas",async(req,res)=>{
   return res.send("sri.html")
 })
 // for parsing application/x-www-form-urlencoded
